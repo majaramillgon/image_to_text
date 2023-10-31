@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "picture-to-text"
+version = "0.1.0"
+description = "This module converts any pictute to text."
+authors = ["majaramillogon"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+opencv-python = "^4.5"
+pytesseract = "^0.3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
